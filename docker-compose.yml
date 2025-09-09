@@ -17,8 +17,6 @@ x-afam-common:
     DB_HOST: db
     DB_TEST: afam-test
     DB_USERNAME: postgres
-    GOOGLE_API_KEY: ${GOOGLE_API_KEY}
-    REDIS_URL: redis://redis:6379
     XERO_ID: ${XERO_ID}
     XERO_SECRET: ${XERO_SECRET}
 
@@ -31,7 +29,6 @@ services:
       - "3000:3000"
     depends_on:
       - db
-      - redis
 
   db:
     image: postgres:11.5
@@ -39,21 +36,6 @@ services:
       - afam-data:/var/lib/postgresql/data
     ports:
       - "5432:5432"
-
-  redis:
-    image: redis:7-alpine
-    ports:
-      - "6379:6379"
-    volumes:
-      - ./tmp/redis_data:/var/lib/redis/data
-
-  sidekiq:
-    << : *afam-common
-    command: bundle exec sidekiq -r . -C config/sidekiq.yml
-    depends_on:
-      - db
-      - redis
-      - web
 
 volumes:
   afam-data:
