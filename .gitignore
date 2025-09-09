@@ -45,6 +45,7 @@ yarn-debug.log*
 .bash_history
 .guard_history
 .local
+.netrc
 
 /public/packs
 /public/packs-test
