@@ -39,6 +39,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "ruby.structure.view.model.defaults.configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -136,6 +137,7 @@
       <updated>1757376164472</updated>
       <workItem from="1757376166665" duration="151000" />
       <workItem from="1757378291787" duration="1865000" />
+      <workItem from="1757427089343" duration="47000" />
     </task>
     <servers />
   </component>
