@@ -1,0 +1,44 @@
+@import 'variables';
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: $secondary_1;
+    color: $complimentary_5;
+    font-size: 1em;
+    //font-family: 'Courier Prime', monospace;
+
+    div.header {
+      border-bottom: 3px solid $tertiary_5;
+      background: $secondary_5;
+      color: white;
+      height: 5em;
+
+      span.title {
+        font-weight: bold;
+        font-size: 3em;
+      }
+
+      div.links {
+        font-size: 2em;
+        float: right;
+        margin-top: 0.5em;
+        margin-right: 5em;
+
+        a {
+          text-align: center;
+          margin-right: 5em;
+        }
+      }
+    }
+
+  }
+}
