@@ -34,8 +34,15 @@ html {
         margin-right: 5em;
 
         a {
+          text-decoration: none;
+          font-variant: small-caps;
+          color: white;
           text-align: center;
-          margin-right: 5em;
+          margin-right: 3em;
+        }
+
+        a:hover {
+          text-decoration: underline;
         }
       }
     }

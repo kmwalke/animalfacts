@@ -1,0 +1,11 @@
+<% content_for :title, "New fact" %>
+
+<h1>New fact</h1>
+
+<%= render "form", fact: @fact %>
+
+<br>
+
+<div>
+  <%= link_to "Back to facts", facts_path %>
+</div>
