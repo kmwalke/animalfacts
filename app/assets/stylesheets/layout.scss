@@ -11,13 +11,13 @@ html {
     padding: 0;
     height: 100%;
     width: 100%;
-    background-color: $secondary_1;
-    color: $complimentary_5;
+    background-color: $complimentary_1;
+    color: $primary_5;
     font-size: 1em;
     //font-family: 'Courier Prime', monospace;
 
     div.header {
-      border-bottom: 3px solid $tertiary_5;
+      border-bottom: 10px solid $tertiary_5;
       background: $secondary_5;
       color: white;
       height: 5em;
