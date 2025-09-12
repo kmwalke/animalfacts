@@ -1,12 +1,6 @@
-<div id="<%= dom_id fact %>">
-  <p>
-    <strong>Name:</strong>
-    <%= fact.name %>
-  </p>
-
-  <p>
-    <strong>Description:</strong>
+<li class="fact" id="<%= dom_id fact %>">
+  <span class="name"><%= fact.name %></span>
+  <p class="description">
     <%= fact.description %>
   </p>
-
-</div>
+</li>

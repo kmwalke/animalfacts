@@ -6,6 +6,10 @@ class FactsController < ApplicationController
     @facts = Fact.all
   end
 
+  def admin
+    @facts = Fact.all
+  end
+
   # GET /facts/1 or /facts/1.json
   def show
   end

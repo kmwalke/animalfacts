@@ -4,8 +4,11 @@
 
 <h1>Facts</h1>
 
+<%= link_to 'New Fact', new_fact_path %>
+
 <ul class="facts">
   <% @facts.each do |fact| %>
     <%= render fact %>
+    <%= link_to 'Edit this Fact', edit_fact_path(fact) %>
   <% end %>
 </ul>
