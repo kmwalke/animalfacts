@@ -1,0 +1,16 @@
+<p style="color: green"><%= notice %></p>
+
+<% content_for :title, "Riddles" %>
+
+<h1>Riddles</h1>
+
+<%= link_to 'New Riddle', new_riddle_path %>
+
+<ul class="riddles">
+  <% @riddles.each do |riddle| %>
+    <%= render riddle %>
+    <%= link_to 'Edit this Riddle', edit_riddle_path(riddle) %>
+  <% end %>
+</ul>
+
+<%= link_to "New riddle", new_riddle_path %>

@@ -1,0 +1,11 @@
+<% content_for :title, "Editing riddle" %>
+
+<h1>Editing riddle</h1>
+
+<%= render "form", riddle: @riddle %>
+
+<br>
+
+<div>
+  <%= link_to "Back to riddles", admin_riddles_path %>
+</div>

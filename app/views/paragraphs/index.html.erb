@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<% content_for :title, "Paragraphs" %>
+
+<h1>Paragraphs</h1>
+
+<div id="paragraphs">
+  <% @paragraphs.each do |paragraph| %>
+    <%= render paragraph %>
+    <p>
+      <%= link_to "Show this paragraph", paragraph %>
+    </p>
+  <% end %>
+</div>

@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @riddle %>
+
+<div>
+  <%= link_to "Edit this riddle", edit_riddle_path(@riddle) %> |
+  <%= link_to "Back to riddles", riddles_path %>
+
+  <%= button_to "Destroy this riddle", @riddle, method: :delete %>
+</div>

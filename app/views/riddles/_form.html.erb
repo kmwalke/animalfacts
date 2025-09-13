@@ -1,0 +1,27 @@
+<%= form_with(model: riddle) do |form| %>
+  <% if riddle.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(riddle.errors.count, "error") %> prohibited this riddle from being saved:</h2>
+
+      <ul>
+        <% riddle.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :question, style: "display: block" %>
+    <%= form.textarea :question %>
+  </div>
+
+  <div>
+    <%= form.label :answer, style: "display: block" %>
+    <%= form.textarea :answer %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

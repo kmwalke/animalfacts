@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<% content_for :title, "Paragraphs" %>
+
+<h1>Paragraphs</h1>
+
+<%= link_to 'New Paragraph', new_paragraph_path %>
+
+<ul class="paragraphs">
+  <% @paragraphs.each do |paragraph| %>
+    <%= render paragraph %>
+    <%= link_to 'Edit this Paragraph', edit_paragraph_path(paragraph) %>
+  <% end %>
+</ul>
