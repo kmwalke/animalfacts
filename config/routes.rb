@@ -4,4 +4,10 @@ Rails.application.routes.draw do
   resources :facts do
     get :admin, on: :collection
   end
+  resources :paragraphs do
+    get :admin, on: :collection
+  end
+  resources :riddles do
+    get :admin, on: :collection
+  end
 end

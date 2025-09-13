@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="202689da-e083-4479-aace-1466943e6ead" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/facts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/facts_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/facts/_fact.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/facts/_fact.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/facts/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/facts/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +38,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "com.intellij.lang.ruby.rbs.tools.collection.workspace.sync.RbsCollectionUpdateProjectActivity#LAST_UPDATE_TIMESTAMP": "1757378350036",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/kent/sites/animalfacts/app/views/facts",
+    "last_opened_file_path": "/home/kent/sites/animalfacts/app/controllers",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,6 +51,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/controllers" />
       <recent name="$PROJECT_DIR$/app/views/facts" />
     </key>
   </component>
