@@ -69,6 +69,6 @@ class RiddlesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def riddle_params
-      params.expect(riddle: [ :name, :description ])
+      params.expect(riddle: [ :hint, :answer ])
     end
 end

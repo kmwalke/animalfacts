@@ -69,6 +69,6 @@ class ParagraphsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def paragraph_params
-      params.expect(paragraph: [ :name, :description ])
+      params.expect(paragraph: [ :title, :content ])
     end
 end
